@@ -1,0 +1,29 @@
+.animated-button {
+  position: relative;
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #0077cc;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.animated-button img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+.animated-button:hover img {
+  transform: translate(-50%, -50%) scale(1.2);
+}
+
+.animated-button:hover {
+  background-color: #005ea3;
+}
