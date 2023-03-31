@@ -1,9 +1,40 @@
-@media only screen and (max-width: 600px) {
-  body {
-    background-image: url(download.jpg);
-  }
-@media screen and (max-width: 768px)   
-body {
 .judul {
-  font-size: 36px;
+  font-size: 50px;
+}
+
+.judul2 {
+  font-size: 40px;
+}
+
+.nama {
+  font-size: 37px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.container2 {
+  margin: auto;
+  text-align: center;
+}
+
+.kelas {
+  font-size: 35px;
+}
+
+.audio {
+  color: blue;
+}
+
+.kontak {
+  font-size: 33px;
 }
