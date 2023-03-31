@@ -3,3 +3,7 @@
     background-image: url(download.jpg);
   }
 @media screen and (max-width: 768px)   
+body {
+.judul {
+  font-size: 36px;
+}
