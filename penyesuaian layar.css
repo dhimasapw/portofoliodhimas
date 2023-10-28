@@ -1,3 +1,44 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.3); /* Latar belakang transparan */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Pastikan navbar di atas konten */
+}
+.containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+}
+
+.btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+}
 .judul {
   font-size: 50px;
 }
